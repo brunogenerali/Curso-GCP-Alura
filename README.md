@@ -22,3 +22,10 @@ Para adicionar outras configurações para trabalhar com multiplos projeto utili
 `gcloud topic configurations`  
 - Copiando os arquivos do site para o bucket do gcp  
 `gsutil -m cp -r {PATH Local} {PATH DO BUCKET}`  
+- Alterando permissões de acesso das imagens
+
+
+
+# Configurando IaC para o mesmo projeto
+
+- Seguido documentação do Terraform para criação de GCP service account key pelo console para o projeto.  
