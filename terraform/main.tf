@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("<NAME>.json")
+  credentials = file("curso-gcp-alura-853037ae3ebf.json")
 
   project = "curso-gcp-alura"
   region  = "us-west1"
